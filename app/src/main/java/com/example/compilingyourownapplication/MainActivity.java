@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //PlayGifView pGif = (PlayGifView) findViewById(R.id.viewGif);
+        //pGif.setImageResource(R.drawable.coaster);
     }
 
     public void go_home(View view){
@@ -28,6 +30,5 @@ public class MainActivity extends AppCompatActivity {
     public void decision_default_02(View view) {
         System.out.println("DEFAULT OUT 02");
         setContentView(R.layout.decision_default_result_02);
-
     }
 }
