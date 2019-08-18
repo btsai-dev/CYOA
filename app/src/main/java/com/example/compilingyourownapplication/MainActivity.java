@@ -18,6 +18,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void go_prologue(View view){
+        setContentView(R.layout.prologue);
+    }
+
+    public void go_decision_00(View view){
+        setContentView(R.layout._decision_00);
+    }
+
     public void enter_decision_default(View view){
         setContentView(R.layout.decision_default_file);
     }

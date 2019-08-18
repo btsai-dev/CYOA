@@ -29,7 +29,6 @@
         android:layout_height="200dp"
         android:src="@drawable/coaster"/>
 
-
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
