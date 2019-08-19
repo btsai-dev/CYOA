@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">iNfInItY\nmOuNtAiN</string>
-    <string name="app_version">Version 0.0.9</string>
+    <string name="app_version">Version 0.0.12</string>
     <string name="lorem_ipsum">"    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed libero enim sed faucibus turpis. Enim blandit volutpat maecenas volutpat blandit aliquam. Vulputate enim nulla aliquet porttitor lacus. Accumsan tortor posuere ac ut consequat. Vitae semper quis lectus nulla at volutpat diam. Enim nec dui nunc mattis enim ut tellus elementum. Sed nisi lacus sed viverra tellus in hac. Scelerisque fermentum dui faucibus in ornare quam. Est placerat in egestas erat imperdiet sed euismod nisi. Ut sem viverra aliquet eget sit amet. Nam at lectus urna duis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Diam sollicitudin tempor id eu nisl nunc mi.
 
     Pretium aenean pharetra magna ac placerat vestibulum. Id donec ultrices tincidunt arcu non sodales neque sodales. Dui accumsan sit amet nulla facilisi morbi tempus. Libero volutpat sed cras ornare. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Quis risus sed vulputate odio ut enim. Neque viverra justo nec ultrices dui sapien eget mi. Sit amet mattis vulputate enim nulla aliquet porttitor. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Leo urna molestie at elementum eu facilisis. Et tortor consequat id porta. Vulputate ut pharetra sit amet aliquam id diam. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Lorem sed risus ultricies tristique nulla aliquet enim. Est ante in nibh mauris cursus mattis.
@@ -51,21 +51,4 @@
     <string name="result_06A">Result 06A</string>
     <string name="result_06B">Result 06B</string>
 
-    <string name="decision_07">Decision 07</string>
-    <string name="decision_07A">Decision 07A</string>
-    <string name="decision_07B">Decision 07B</string>
-    <string name="result_07A">Result 07A</string>
-    <string name="result_07B">Result 07B</string>
-
-    <string name="decision_08">Decision 08</string>
-    <string name="decision_08A">Decision 08</string>
-    <string name="decision_08B">Decision 08</string>
-    <string name="result_08A">Result 08A</string>
-    <string name="result_08B">Result 08B</string>
-
-    <string name="decision_09">Decision 09</string>
-    <string name="decision_09A">Decision 09</string>
-    <string name="decision_09B">Decision 09</string>
-    <string name="result_09A">Result 09A</string>
-    <string name="result_09B">Result 09B</string>
 </resources>

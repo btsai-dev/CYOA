@@ -16,7 +16,7 @@
             android:paddingVertical="20dp"
             android:paddingHorizontal="20dp"
             android:textSize="20dp"
-            android:text="@string/decision_07"/>
+            android:text="@string/decision_06"/>
 
         <pl.droidsonroids.gif.GifImageView
             android:layout_width="300dp"
@@ -28,15 +28,15 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="@string/decision_03A"
-            android:onClick="go_decision_07A"/>
+            android:text="@string/decision_06A"
+            android:onClick="go_decision_06A"/>
 
         <Button
             android:id="@+id/decision_default_02"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="@string/decision_03B"
-            android:onClick="go_decision_07B"/>
+            android:text="@string/decision_06B"
+            android:onClick="go_decision_06B"/>
     </LinearLayout>
 </ScrollView>

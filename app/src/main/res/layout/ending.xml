@@ -9,6 +9,11 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/gem_cart"/>
+
         <TextView
             android:id="@+id/content_default"
             android:layout_width="match_parent"
@@ -16,27 +21,15 @@
             android:paddingVertical="20dp"
             android:paddingHorizontal="20dp"
             android:textSize="20dp"
-            android:text="@string/decision_04"/>
-
-        <pl.droidsonroids.gif.GifImageView
-            android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:src="@drawable/coaster"/>
+            android:text="@string/ending"/>
 
         <Button
             android:id="@+id/decision_default_01"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="@string/decision_04A"
-            android:onClick="go_decision_04A"/>
+            android:text="Of $%#^ing course."
+            android:onClick="go_results"/>
 
-        <Button
-            android:id="@+id/decision_default_02"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="@string/decision_04B"
-            android:onClick="go_decision_04B"/>
     </LinearLayout>
 </ScrollView>
