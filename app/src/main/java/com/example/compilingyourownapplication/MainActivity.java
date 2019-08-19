@@ -26,6 +26,50 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout._decision_00);
     }
 
+    public void go_decision_00A(View view){
+        setContentView(R.layout._decision_00a);
+    }
+
+    public void go_decision_00B(View view){
+        setContentView(R.layout._decision_00b);
+    }
+
+    public void go_decision_01(View view){
+        setContentView(R.layout._decision_01);
+    }
+
+    public void go_decision_01A(View view){
+        setContentView(R.layout._decision_01a);
+    }
+
+    public void go_decision_01B(View view){
+        setContentView(R.layout._decision_01b);
+    }
+
+    public void go_decision_02(View view){
+        setContentView(R.layout._decision_02);
+    }
+
+    public void go_decision_02A(View view){
+        setContentView(R.layout._decision_02a);
+    }
+
+    public void go_decision_02B(View view){
+        setContentView(R.layout._decision_02b);
+    }
+
+    public void go_decision_03(View view){
+        setContentView(R.layout._decision_03);
+    }
+
+    public void go_decision_03A(View view){
+        setContentView(R.layout._decision_03a);
+    }
+
+    public void go_decision_03B(View view){
+        setContentView(R.layout._decision_03b);
+    }
+
     public void enter_decision_default(View view){
         setContentView(R.layout.decision_default_file);
     }

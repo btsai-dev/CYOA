@@ -1,13 +1,71 @@
 <resources>
     <string name="app_name">iNfInItY\nmOuNtAiN</string>
-    <string name="app_version">Version 0.0.8</string>
+    <string name="app_version">Version 0.0.9</string>
     <string name="lorem_ipsum">"    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed libero enim sed faucibus turpis. Enim blandit volutpat maecenas volutpat blandit aliquam. Vulputate enim nulla aliquet porttitor lacus. Accumsan tortor posuere ac ut consequat. Vitae semper quis lectus nulla at volutpat diam. Enim nec dui nunc mattis enim ut tellus elementum. Sed nisi lacus sed viverra tellus in hac. Scelerisque fermentum dui faucibus in ornare quam. Est placerat in egestas erat imperdiet sed euismod nisi. Ut sem viverra aliquet eget sit amet. Nam at lectus urna duis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Diam sollicitudin tempor id eu nisl nunc mi.
 
     Pretium aenean pharetra magna ac placerat vestibulum. Id donec ultrices tincidunt arcu non sodales neque sodales. Dui accumsan sit amet nulla facilisi morbi tempus. Libero volutpat sed cras ornare. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Quis risus sed vulputate odio ut enim. Neque viverra justo nec ultrices dui sapien eget mi. Sit amet mattis vulputate enim nulla aliquet porttitor. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Leo urna molestie at elementum eu facilisis. Et tortor consequat id porta. Vulputate ut pharetra sit amet aliquam id diam. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Lorem sed risus ultricies tristique nulla aliquet enim. Est ante in nibh mauris cursus mattis.
 
     Eu mi bibendum neque egestas congue quisque egestas diam in. Aliquet risus feugiat in ante metus dictum. Quam lacus suspendisse faucibus interdum posuere lorem. At augue eget arcu dictum varius duis. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Varius morbi enim nunc faucibus a pellentesque sit. Viverra adipiscing at in tellus integer feugiat. Scelerisque varius morbi enim nunc. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla. Mattis molestie a iaculis at erat pellentesque. Aliquet eget sit amet tellus. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Congue eu consequat ac felis donec. Hac habitasse platea dictumst quisque sagittis. Ornare suspendisse sed nisi lacus sed viverra. Pharetra massa massa ultricies mi quis."</string>
-    <string name="prologue">"   The Ultimate Gamer Thanos snap scattered the infinity stones across the ride. You are tasked with collecting all of them in a buzz lightyear cart, fitted with its own infinity gauntlet made by Eitri, to defeat patrick thanos at the end."
+    <string name="prologue">"   The Ultimate Gamer Thanos Snap™ scattered the infinity stones across the ride. You are tasked with collecting all of them in a Buzz Lightyear cart, fitted with its own infinity gauntlet made by Eitri, to defeat patrick thanos at the end."
     </string>
-    <string name="decision_00">""
-    </string>
+
+    <string name="decision_00">Decision 00</string>
+    <string name="decision_00A">Decision 00A</string>
+    <string name="decision_00B">Decision 00B</string>
+    <string name="result_00A">Result 00A</string>
+    <string name="result_00B">Result 00B</string>
+
+    <string name="decision_01">Decision 01</string>
+    <string name="decision_01A">Decision 01A</string>
+    <string name="decision_01B">Decision 01B</string>
+    <string name="result_01A">Result 01A</string>
+    <string name="result_01B">Result 01B</string>
+
+    <string name="decision_02">DECISION 02</string>
+    <string name="decision_02A">DECISION 02A</string>
+    <string name="decision_02B">DECISION 02B</string>
+    <string name="result_02A">Result 02A</string>
+    <string name="result_02B">Result 02B</string>
+
+    <string name="decision_03">Decision 03</string>
+    <string name="decision_03A">Decision 03A</string>
+    <string name="decision_03B">Decision 03B</string>
+    <string name="result_03A">Result 03A</string>
+    <string name="result_03B">Result 03B</string>
+
+    <string name="decision_04">Decision 04</string>
+    <string name="decision_04A">Decision 04A</string>
+    <string name="decision_04B">Decision 04B</string>
+    <string name="result_04A">Result 04A</string>
+    <string name="result_04B">Result 04B</string>
+
+    <string name="decision_05">Decision 05</string>
+    <string name="decision_05A">Decision 05A</string>
+    <string name="decision_05B">Decision 05B</string>
+    <string name="result_05A">Result 05A</string>
+    <string name="result_05B">Result 05B</string>
+
+    <string name="decision_06">Decision 06</string>
+    <string name="decision_06A">Decision 06A</string>
+    <string name="decision_06B">Decision 06B</string>
+    <string name="result_06A">Result 06A</string>
+    <string name="result_06B">Result 06B</string>
+
+    <string name="decision_07">Decision 07</string>
+    <string name="decision_07A">Decision 07A</string>
+    <string name="decision_07B">Decision 07B</string>
+    <string name="result_07A">Result 07A</string>
+    <string name="result_07B">Result 07B</string>
+
+    <string name="decision_08">Decision 08</string>
+    <string name="decision_08A">Decision 08</string>
+    <string name="decision_08B">Decision 08</string>
+    <string name="result_08A">Result 08A</string>
+    <string name="result_08B">Result 08B</string>
+
+    <string name="decision_09">Decision 09</string>
+    <string name="decision_09A">Decision 09</string>
+    <string name="decision_09B">Decision 09</string>
+    <string name="result_09A">Result 09A</string>
+    <string name="result_09B">Result 09B</string>
 </resources>

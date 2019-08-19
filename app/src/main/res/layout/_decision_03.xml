@@ -9,11 +9,6 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
-        <pl.droidsonroids.gif.GifImageView
-            android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:src="@drawable/coaster"/>
-
         <TextView
             android:id="@+id/content_default"
             android:layout_width="match_parent"
@@ -21,22 +16,27 @@
             android:paddingVertical="20dp"
             android:paddingHorizontal="20dp"
             android:textSize="20dp"
-            android:text="@string/decision_00"/>
+            android:text="@string/decision_03"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/coaster"/>
 
         <Button
             android:id="@+id/decision_default_01"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="@string/decision_00A"
-            android:onClick="go_decision_00A"/>
+            android:text="@string/decision_03A"
+            android:onClick="go_decision_03A"/>
 
         <Button
             android:id="@+id/decision_default_02"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="@string/decision_00B"
-            android:onClick="go_decision_00B"/>
+            android:text="@string/decision_03B"
+            android:onClick="go_decision_03B"/>
     </LinearLayout>
 </ScrollView>

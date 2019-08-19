@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="Press to start"
-        android:onClick="enter_decision_default"/>
+        android:onClick="go_prologue"/>
 
     <TextView
         android:id="@+id/versiontext"
