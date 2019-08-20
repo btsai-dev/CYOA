@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">iNfInItY\nmOuNtAiN</string>
-    <string name="app_version">Version 0.0.12</string>
+    <string name="app_version">Version 0.1.1</string>
     <string name="lorem_ipsum">"    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed libero enim sed faucibus turpis. Enim blandit volutpat maecenas volutpat blandit aliquam. Vulputate enim nulla aliquet porttitor lacus. Accumsan tortor posuere ac ut consequat. Vitae semper quis lectus nulla at volutpat diam. Enim nec dui nunc mattis enim ut tellus elementum. Sed nisi lacus sed viverra tellus in hac. Scelerisque fermentum dui faucibus in ornare quam. Est placerat in egestas erat imperdiet sed euismod nisi. Ut sem viverra aliquet eget sit amet. Nam at lectus urna duis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Diam sollicitudin tempor id eu nisl nunc mi.
 
     Pretium aenean pharetra magna ac placerat vestibulum. Id donec ultrices tincidunt arcu non sodales neque sodales. Dui accumsan sit amet nulla facilisi morbi tempus. Libero volutpat sed cras ornare. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Quis risus sed vulputate odio ut enim. Neque viverra justo nec ultrices dui sapien eget mi. Sit amet mattis vulputate enim nulla aliquet porttitor. Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Leo urna molestie at elementum eu facilisis. Et tortor consequat id porta. Vulputate ut pharetra sit amet aliquam id diam. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Lorem sed risus ultricies tristique nulla aliquet enim. Est ante in nibh mauris cursus mattis.
@@ -9,46 +9,71 @@
     <string name="prologue">"   The Ultimate Gamer Thanos Snap™ scattered the infinity stones across the ride. You are tasked with collecting all of them in a Buzz Lightyear cart, fitted with its own infinity gauntlet made by Eitri, to defeat patrick thanos at the end."
     </string>
 
-    <string name="decision_00">Decision 00</string>
-    <string name="decision_00A">Decision 00A</string>
-    <string name="decision_00B">Decision 00B</string>
-    <string name="result_00A">Result 00A</string>
-    <string name="result_00B">Result 00B</string>
+    <string name="decision_00">"   You exit the first corridor to a city with burning buildings and toppled skyscrapers. You then encounter the Green Goblin, floating on his hover scooter. Using the blaster built into your Buzz Lightyear cart, you shoot one of the bombs on the Goblin’s belt. He blows up and falls out of the sky. He crashes into the ground and is buried beneath the rubble of a nearby building which falls on top of him.
+           Suddenly, you see a hand emerge from the pile of concrete with a bomb ready to be thrown at you. A web appears out of nowhere and snatches the bomb out of the Goblin’s hand. You look up to see Spiderman perched on a lamp post. The Goblin breaks out of the rubble with explosive force and a fight ensues with Spiderman. Turning to determine the safety of your team, Spiderman exclaims, “Get to cover! I’ll check on you guys when it’s safe!” After Spiderman steals the pumpkin belt and throws it to the side, one of the pumpkins reveals comes a purple object with a kind of glow to it."</string>
+    <string name="decision_00A">"Pick it up"</string>
+    <string name="decision_00B">"Leave it alone"</string>
+    <string name="result_00A">"   You pick it up and immediately feel a rush of power and overwhelming pain. After carefully placing the Stone in your Buzz Lightyear cart, you power up your blaster and defeat the Goblin. Spiderman was added to your party. You proceed to the next zone <b>with the Power Stone.</b>"</string>
+    <string name="result_00B">"   Spiderman gets knocked down by a furious blow from the Goblin. While lying on the ground, holding onto his consciousness by a thread, he notices the stone and webs it toward him. He uses the stone to punch the goblin in the face, launching him into space. “You Guys are alright now, you need to go” says Spiderman placing the power stone into the cart gauntlet. You proceed to the next zone <b>with the Power Stone.</b>"
+    </string>
 
-    <string name="decision_01">Decision 01</string>
-    <string name="decision_01A">Decision 01A</string>
-    <string name="decision_01B">Decision 01B</string>
-    <string name="result_01A">Result 01A</string>
-    <string name="result_01B">Result 01B</string>
+    <string name="decision_01">"   The tunnel lets out into an empty void. Your cart comes free of its tracks and goes into a slight barrel roll. There are stars all around you, and your breathing is labored. You encounter Loki floating on a magic chariot above the cart. At the front is a shield with a glowing blue light in the center. Loki fires a beam of light from the shield at the Buzz Lightyear cart. The beam of light collides with you and knocks your cart sideways. The cart begins doing flips with or without you, what do you do?"
+    </string>
+    <string name="decision_01A">"Hold onto Buzz’s chin"</string>
+    <string name="decision_01B">"Hold onto the wheels"</string>
+    <string name="result_01A">"   You grab onto Buzz Lightyear’s massive chin to keep you safe. You get a handhold easily enough, and you find yourself spinning around several times before coming to a fast halt when your cart crashes into a large blue cube. You feel this cube ripping you out of position, and you (and your cart) are back in the tunnel, with the cube, which promptly shrinks into a blue stone and falls into your gauntlet. <b>You get the Space Stone.</b>"
+    </string>
+    <string name="result_01B">"   You go to grab onto the wheels of your cart…. Why? You, in all your foolish confidence, are hurled from your cart and into the space beyond. Once your Buzz Lightyear cart is only a speck on the horizon, you find your consciousness failing. You pass out, your fading consciousness fixated on a bright blue light. When you awake, you’re in your Buzz Lightyear Cart, back in another corridor."
+    </string>
 
-    <string name="decision_02">DECISION 02</string>
-    <string name="decision_02A">DECISION 02A</string>
-    <string name="decision_02B">DECISION 02B</string>
-    <string name="result_02A">Result 02A</string>
-    <string name="result_02B">Result 02B</string>
+    <string name="decision_02">"   Your cart rolls into a metal-paneled chamber where a large server hub sits on a dais. A yellow light flickers on in the center of the hub and a voice rings out, identifying itself as JARVIS. The system claims it must judge your ability to decide if you are a Russian Communist Spy™. The AI presents before you something called The Forbidden Riddle and asks that you recount what it says."</string>
+    <string name="decision_02A">"Go $^@! yourself."</string>
+    <string name="decision_02B">"1 / 0"</string>
+    <string name="decision_02C">"I don’t know"</string>
+    <string name="decision_02D">"r6hodFq"</string>
+    <string name="result_02A">"   The AI marvels at your professional usage of American colloquialism. It is so amazed at your Americanistic tendencies that it proceeds to self-destruct due to the immense power of freedom it experienced. A yellow stone shoots out and settles into your glove. <b>You collected the Mind Stone.</b>"</string>
+    <string name="result_02B">"   The AI is confused and proceeds to shut down. You have to shove it out of your way to continue on your quest."</string>
+    <string name="result_02C">"   The AI laffs at your incompetence and proceeds to straight through the ceiling and out of the area. You continue on your journey wishing you hadn't dropped out of 7th grade Intensive Reading."</string>
+    <string name="result_02D">"   The AI notifies you that 98% of Russian Communist Spies™ are able to read the alphabet and proceeds to fly straight through the ceiling leaving you in a state of confusion."</string>
 
-    <string name="decision_03">Decision 03</string>
-    <string name="decision_03A">Decision 03A</string>
-    <string name="decision_03B">Decision 03B</string>
-    <string name="result_03A">Result 03A</string>
-    <string name="result_03B">Result 03B</string>
+    <string name="decision_03">"   A bright red glow alights into the room above you. Your cart stops in front of a pompadoured man. The man explains to you that he has the Reality Stone, but that he likes it far too much to give it to you. In its place he offers you a plastic ring from a box of Cracker Jacks. Do you take it?"
+    </string>
+    <string name="decision_03A">"Yes! Plastic's Fantastic!"</string>
+    <string name="decision_03B">"No. What does pompadoured even mean?"</string>
+    <string name="result_03A">"   You take the ring and, to your surprise, it starts glowing. Apparently, the collector swapped the Reality Stone into the ring and forgot. Seeing you drive off with the stone, he has a smug look that quickly fades as he holds up his precious Reality Stone to simply find a piece of plastic. <b>You get a Reality Stone.</b>"
+    </string>
+    <string name="result_03B">"   Frustrated by your lack of vocabulary, you storm off in a tizzy. The Collector cradles the Reality Stone and, out of the corner of your eye, you see the Cracker Jack ring start glowing.
+    </string>
 
-    <string name="decision_04">Decision 04</string>
-    <string name="decision_04A">Decision 04A</string>
-    <string name="decision_04B">Decision 04B</string>
-    <string name="result_04A">Result 04A</string>
-    <string name="result_04B">Result 04B</string>
+    <string name="decision_04">"   The darkness of the ride gives way to the texture of anachronistic wallpaper and wood flooring. As it bursts headlong through a door, your Buzz Lightyear cart slows to give a full view of the setting you find yourself in. Dusty roads give way to birch houses in an empty town. Devoid of people, sheriffs, or duels, the only accompaniment to this display is howling from beyond. A short length of track later, this howling leaves the realm of “beyond” and opts for “rapidly approaching.” As your track approaches a black rectangle in the walls of this town, you see a bipedal wolfman bounding toward you. He is adorned with a badge and wearing a ten-gallon hat far too small for him. As you ponder what gallon of hat he should be wearing, he reaches you and attacks. What do you do?"
+    </string>
+    <string name="decision_04A">Shoot! Shoot! SHOOOOT!!!!!</string>
+    <string name="decision_04B">En garde! With my fists!</string>
+    <string name="result_04A">"   You spray and shriek like Rambo, just without any skill or abs. Still, the rabid wolfman cowers in fear, though it's probably due to cringe. You get to the exit corridor.
+           The corridor from the old town quickly changes form into a chrome-plated mirrored metropolis. You find yourself in a shining metallic house filled with strange appliances, absurdist artwork, and tall cans of Josta. You’re in disbelief at the seeming paradise you find yourself in. Not only is this place clean and magnificent, but you figure this is a reality where they never discontinued the most popular lost 90s energy drink.
+           As the cart brings you outside, you see a sprawl of tall chrome skyscrapers, with drones flitting around overhead. As you’re marveling at this magical world, you’re approached by a man in a shining metallic outfit. He identifies himself as the Marvel-Branded Generic Robotic Cop™ and he thanks you for your heroism thus far. He holds out a green stone for you to take. <b>You collect a Time Stone.</b>"
+    </string>
+    <string name="result_04B">"   You melee with a massive wolfman. You get the upper ground... because the wolfman just threw you into the air, ripping some arm muscle. You manage to escape.
+           The corridor from the old town quickly changes form into a chrome-plated mirrored metropolis. You find yourself in a shining metallic house filled with strange appliances, absurdist artwork, and tall cans of Josta. You’re in disbelief at the seeming paradise you find yourself in. Not only is this place clean and magnificent, but you figure this is a reality where they never discontinued the most popular lost 90s energy drink.
+           As the cart brings you outside, you see a sprawl of tall chrome skyscrapers, with drones flitting around overhead. As you’re marveling at this magical world, you’re approached by a man in a shining metallic outfit. He identifies himself as the Marvel-Branded Generic Robotic Cop™ and he thanks you for your heroism thus far. He holds out a green stone for you to take. Unfortunately, your arms don't have the strength and you drop the stones."
+    </string>
 
-    <string name="decision_05">Decision 05</string>
-    <string name="decision_05A">Decision 05A</string>
-    <string name="decision_05B">Decision 05B</string>
-    <string name="result_05A">Result 05A</string>
-    <string name="result_05B">Result 05B</string>
+    <string name="decision_05">"   Your next path opens to a bright chamber decorated in orange crystal. You hear wailing from the walls and recognize the trapped forms of those caught on this ride during the snap calling for you. The walls are decorated with shimmering forms grabbing at your cart, attempting to take your place. The ghastly forms fall away as the orange crystal fades back into darkness. The room changes and opens to a cliffside. An ethereal form offers to give you the soul stone, but only if you choose to sacrifice your riding companion. Do you do it?"
+    </string>
+    <string name="decision_05A">"I have a companion? KILL EM!!"</string>
+    <string name="decision_05B">"Companion? Keep em!"</string>
+    <string name="result_05A">"   You toss your friend out of the cart and they sink below the cliff-like granite in molasses. While you sit in your cart pondering your decision, you see an orange stone set itself in your gauntlet. Your cart rolls away past the cliff, lonely. <b>You get a Soul Stone.</b>"
+    </string>
+    <string name="result_05B">"   You choose to place your friend’s life over the value of an Infinity Stone. The two of you move on without a stone, pondering if you made the right choice as your Buzz Lightyear cart rolls past the cliffside."
+    </string>
 
-    <string name="decision_06">Decision 06</string>
+    <string name="decision_06">"   Your journey has come to an end. You’ve faced the trials leading up to this point, and you’re ready to face the man himself. The final corridor lets out into a hexagonal chamber focused on the Mad Titan himself. You, with the determination and strength you’ve accumulated, hoist your Infinity Gauntlet, and snap."
+    </string>
     <string name="decision_06A">Decision 06A</string>
     <string name="decision_06B">Decision 06B</string>
     <string name="result_06A">Result 06A</string>
     <string name="result_06B">Result 06B</string>
+
+    <string name="ending">ENDING</string>
 
 </resources>

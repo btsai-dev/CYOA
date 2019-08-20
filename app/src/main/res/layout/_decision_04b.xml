@@ -9,10 +9,6 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
-        <pl.droidsonroids.gif.GifImageView
-            android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:src="@drawable/gem_cart"/>
 
         <TextView
             android:id="@+id/content_default"
@@ -25,10 +21,10 @@
 
         <Button
             android:id="@+id/decision_default_01"
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Of $%#^ing course."
+            android:text="1v1 me bro."
             android:onClick="go_decision_05"/>
 
     </LinearLayout>

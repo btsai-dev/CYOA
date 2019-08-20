@@ -18,25 +18,22 @@
             android:textSize="20dp"
             android:text="@string/decision_05"/>
 
-        <pl.droidsonroids.gif.GifImageView
-            android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:src="@drawable/coaster"/>
+        <Button
+            android:id="@+id/decision_default_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/decision_05B"
+            android:onClick="go_decision_05B"/>
 
         <Button
             android:id="@+id/decision_default_01"
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:text="@string/decision_05A"
             android:onClick="go_decision_05A"/>
 
-        <Button
-            android:id="@+id/decision_default_02"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="@string/decision_05B"
-            android:onClick="go_decision_05B"/>
+
     </LinearLayout>
 </ScrollView>
