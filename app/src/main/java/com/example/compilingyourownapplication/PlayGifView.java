@@ -1,3 +1,7 @@
+/**
+ * Allows the playing of gifs.
+ * Credit: Chethan Shetty on StackOverflow
+ */
 package com.example.compilingyourownapplication;
 
 import android.annotation.SuppressLint;

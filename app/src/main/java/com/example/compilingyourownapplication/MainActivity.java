@@ -1,5 +1,9 @@
+/**
+ * Main program for the Infinity Mountain gag app.
+ */
 package com.example.compilingyourownapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.os.Bundle;
@@ -9,20 +13,133 @@ import java.util.Random;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    // Counter for number of stones
     int count = 0;
-
-    Button mbutton;
-    EditText mEdit;
-    TextView mText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Start the background music
+        startService(new Intent(MainActivity.this, SoundService.class));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //PlayGifView pGif = (PlayGifView) findViewById(R.id.viewGif);
-        //pGif.setImageResource(R.drawable.coaster);
     }
 
+    /**
+     * Function to destroy the music to prevent any memory leaks/overlapping songs
+     */
+    protected void onDestroy() {
+        //stop service and stop music
+        stopService(new Intent(MainActivity.this, SoundService.class));
+        super.onDestroy();
+    }
+
+    /**
+     * Final calculation function
+     * @param view
+     */
+    public void go_decision_final(View view) {
+        // Set the display
+        setContentView(R.layout._decision_final);
+
+        // Randomize the money change needed
+        Random rand = new Random();
+        int money = rand.nextInt(15);
+        money += 11;
+        String mon = Integer.toString(money);
+
+        // Calculate the result
+        final int result = money_change(money);
+
+        // Alter display text to reflect current result
+        TextView change = (TextView)findViewById(R.id.money_change);
+        change.setText(mon);
+
+        // Find the submit button and add a listener
+        Button mbutton = (Button)findViewById(R.id.button01);
+        mbutton.setOnClickListener(new View.OnClickListener() {
+            // onClick listener
+            public void onClick(View view) {
+                EditText mEdit = (EditText)findViewById(R.id.input01);
+                String _str_input = mEdit.getText().toString();
+
+                // Wrong if string contains emptiness
+                if (_str_input.length() <= 0)
+                    ending(false);
+                else {
+                    // default _input, guaranteed to be incorrect.
+                    int _input = -999;
+                    // Attempt to parse string into an int
+                    try {
+                        _input = Integer.parseInt(_str_input);
+                    } catch(NumberFormatException e){
+                        ending(false);
+                    }
+
+                    // Compare user input with the calculated result.
+                    if (_input == result) {
+                        ending(true);
+                    } else {
+                        ending(false);
+                    }
+                }
+            }
+        });
+    }
+
+    /**
+     * Calculates which end to give
+     * @param boss_result - whether the player solved the change problem correctly.
+     */
+    public void ending(boolean boss_result){
+        if(boss_result)
+            if(count >= 3)
+                setContentView(R.layout.good_ending);
+            else
+                setContentView(R.layout.bad_ending);
+        else
+            setContentView(R.layout.bad_ending);
+    }
+
+    /**
+     * Money Change problem, solved with dynamic programming
+     * @param money - Money to calculate change for
+     * @return the minimum amount of coins needed
+     */
+    public static int money_change(int money){
+        // Create a flexible arraylist
+        ArrayList<Integer> min_num_coins = new ArrayList<Integer>();
+
+        // Coins to be used as change.
+        int[] coins = {1, 3, 4};
+        min_num_coins.add(0);
+
+        // Set up the incrementer
+        int m = 1;
+        while (m <= money){
+            min_num_coins.add(999999);
+            // For each coin, check
+            for (int coin_index = 0; coin_index < coins.length; coin_index++){
+                int coin = coins[coin_index];
+                if (m >= coin){
+                    // Count the number of coins by checking the previous recorded result and adding one to account for the checked coin
+                    int num_coins = min_num_coins.get(m - coin) + 1;
+                    // Update the number of coins to reflect the minimum number for a certain combination
+                    if (num_coins < min_num_coins.get(m)){
+                        min_num_coins.set(m, num_coins);
+                    }
+                }
+            }
+            m++;
+        }
+
+        return min_num_coins.get(money);
+    }
+
+
+    /**
+     * Large batch of listener functions for clicking buttons on certain layouts. Increment the count number for correct statements.
+     * @param view - Current display view
+     */
     public void go_home(View view){
         setContentView(R.layout.activity_main);
     }
@@ -119,100 +236,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout._decision_06);
     }
 
-    public void go_decision_06A(View view){
-        count++;
-        setContentView(R.layout._decision_06a);
-    }
-
-    public void go_decision_06B(View view){
-        setContentView(R.layout._decision_06b);
-    }
-
-    public void go_decision_final(View view) {
-        System.out.println("FINAL DECISIONS!");
-        setContentView(R.layout._decision_final);
-
-        Random rand = new Random();
-        int money = rand.nextInt(15);
-        money += 11;
-
-        String mon = Integer.toString(money);
-
-        final int result = money_change(money);
-
-
-        System.out.println("Getting change textview!");
-        TextView change = (TextView)findViewById(R.id.money_change);
-        System.out.println("Setting textview!");
-        change.setText(mon);
-
-        mbutton = (Button)findViewById(R.id.button01);
-        mbutton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                mEdit = (EditText)findViewById(R.id.input01);
-                String _str_input = mEdit.getText().toString();
-                if (_str_input.length() <= 0)
-                    ending(false);
-                else {
-                    int _input = Integer.parseInt(_str_input);
-
-                    if (_input == result) {
-                        ending(true);
-                    } else {
-                        ending(false);
-                    }
-                }
-            }
-        });
-    }
-
-    public void ending(boolean boss_result){
-        if(boss_result)
-            if(count >= 3)
-                setContentView(R.layout.good_ending);
-            else
-                setContentView(R.layout.bad_ending);
-        else
-            setContentView(R.layout.bad_ending);
-    }
-
-    public static int money_change(int money){
-        System.out.println("Changing money.");
-        ArrayList<Integer> min_num_coins = new ArrayList<Integer>();
-        int[] coins = {1, 3, 4};
-        min_num_coins.add(0);
-        int m = 1;
-
-        while (m < money + 1){
-            min_num_coins.add(999999);
-            for (int coin_index = 0; coin_index < coins.length; coin_index++){
-                int coin = coins[coin_index];
-                System.out.println(coin);
-                if (m >= coin){
-                    int num_coins = min_num_coins.get(m - coin) + 1;
-                    if (num_coins < min_num_coins.get(m)){
-                        min_num_coins.set(m, num_coins);
-                    }
-                }
-            }
-            m++;
-        }
-        System.out.println(min_num_coins);
-        return min_num_coins.get(money);
-    }
-
-    public void enter_decision_default(View view){
-        setContentView(R.layout.decision_default_file);
-    }
-
-    public void decision_default_01(View view){
-        System.out.println("DEFAULT OUT 01");
-        setContentView(R.layout.decision_default_result_01);
-    }
-
-    public void decision_default_02(View view) {
-        System.out.println("DEFAULT OUT 02");
-        setContentView(R.layout.decision_default_result_02);
-    }
 }
 

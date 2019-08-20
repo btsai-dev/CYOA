@@ -12,7 +12,7 @@
         <pl.droidsonroids.gif.GifImageView
             android:layout_width="300dp"
             android:layout_height="200dp"
-            android:src="@drawable/biry"/>
+            android:src="@drawable/ai"/>
 
         <TextView
             android:id="@+id/content_default"
