@@ -60,7 +60,7 @@
 
     <string name="decision_05">"   Your next path opens to a bright chamber decorated in orange crystal. You hear wailing from the walls and recognize the trapped forms of those caught on this ride during the snap calling for you. The walls are decorated with shimmering forms grabbing at your cart, attempting to take your place. The ghastly forms fall away as the orange crystal fades back into darkness. The room changes and opens to a cliffside. An ethereal form offers to give you the soul stone, but only if you choose to sacrifice your riding companion. Do you do it?"
     </string>
-    <string name="decision_05A">"I have a companion? KILL EM!!"</string>
+    <string name="decision_05A">"It sucks to suck."</string>
     <string name="decision_05B">"Companion? Keep em!"</string>
     <string name="result_05A">"   You toss your friend out of the cart and they sink below the cliff-like granite in molasses. While you sit in your cart pondering your decision, you see an orange stone set itself in your gauntlet. Your cart rolls away past the cliff, lonely. <b>You get a Soul Stone.</b>"
     </string>
